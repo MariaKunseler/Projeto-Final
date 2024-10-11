@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro do Paciente</title>
+    <link rel="stylesheet" href="cad_pac.css">
+</head>
+<body>
+    <h1>FLORIR AROMAS</h1>
+    <section>
+        <h2>Cadastro do paciente</h2>
+        <form action="cad_pac.php" method="post">
+            <div class="inputbox">
+                <label>Nome</label><br>
+                <input type="text" name="nome"><br>
+            </div>
+            <div class="inputbox">
+                <label>Data de Nascimento</label><br>
+                <input type="text" name="dt_nasc"><br>
+            </div>
+            <div class="inputbox">
+                <label>CPF</label><br>
+                <input type="text" name="cpf"><br>
+            </div>
+
+            <div class="inputbox">
+                <label>Endereço</label><br>
+                <input type="text" name="endereco"><br>
+            </div>
+            <div class="inputbox">
+                <label>Telefone</label><br>
+                <input type="text" name="telefone"><br>
+            </div>
+            <div class="inputbox">
+                <label>Gmail</label><br>
+                <input type="text" name="gmail"><br>
+            </div>
+            <div class="inputbox">
+                <label>Estado civil</label><br>
+                <input type="text" name="estado_civil"><br>
+            </div>
+            <div class="inputbox">
+                <label>Ocupação</label><br>
+                <input type="text" name="ocupacao"><br>
+            </div>
+
+            <br><button type="submit">Cadastrar Paciente</button>
+
+            <br><a href="mostrar.php">Atualizar cadastros</a>
+        </form>
+    </section>
+</body>
+</html>
+
